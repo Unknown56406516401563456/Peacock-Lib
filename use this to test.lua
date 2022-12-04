@@ -1,10 +1,9 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Peacock-Lib/main/src.lua"))()
-
-local Lib = Library:CreateLib {
+local Library = local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Peacock-Lib/main/src.lua"))()
+local Window = Library:CreateLib {
 	name = "Name"
 }
 
-local Tab = Lib:NewTab({
+local Tab = Window:NewTab({
 	name = "Name",
 	icon = "rbxassetid://3926305904"
 })
