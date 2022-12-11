@@ -34,6 +34,11 @@ Developers:
 God_Stando Only Made This No Help
 ]]
 
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Made By God_Stando",
+	Text = "This Was Made By God_Stando",
+	Duration = 10
+})
 -- Services
 local players = game:GetService("Players")
 local tweenService = game:GetService("TweenService")
