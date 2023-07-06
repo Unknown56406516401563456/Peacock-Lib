@@ -1138,8 +1138,6 @@ function Library:CreateLib(brackets)
     
                     uis.InputBegan:Connect(function(input, gpe)
                         if gpe then return end
-    
-                        if Dropdown.Items[id] == nil then return end
 
                         if input.UserInputType == Enum.UserInputType.MouseButton1 and Item.Hover then
                             Item.MouseDown = true
