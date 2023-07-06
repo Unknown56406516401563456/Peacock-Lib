@@ -1132,7 +1132,7 @@ function Library:CreateLib(brackets)
                         Dropdown.HoveringItem = false
     
                         if not Item.MouseDown then
-                            Library:tween(Dropdown.Items[id].instance, {Color = Color3.fromRGB(82, 82, 82)})
+                            Library:tween(Dropdown.Items[id].instance["53"], {Color = Color3.fromRGB(82, 82, 82)})
                         end
                     end)
     
