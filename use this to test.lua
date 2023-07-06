@@ -29,6 +29,16 @@ Slider:SetCallback(function(v)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v -- if you want JumpPower Change the WalkSpeed To JumpPower
 end)
 
+local Slider = Tab:NewSlider({
+	name = "jumppowa",
+	min = "50", -- (min 16) to (max 100) min is the lowest max is the highest and default choose to 16 to 100
+	max = "500",
+	default = "50"
+})
+Slider:SetCallback(function(v)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = v -- if you want JumpPower Change the WalkSpeed To JumpPower
+end)
+
 local Toggle = Tab:NewToggle({
 	name = "Name"
 })
@@ -70,6 +80,16 @@ local Slider = Tab2:NewSlider({
 })
 Slider:SetCallback(function(v)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v -- if you want JumpPower Change the WalkSpeed To JumpPower
+end)
+
+local Slider = Tab2:NewSlider({
+	name = "jumppowa.2",
+	min = "50", -- (min 16) to (max 100) min is the lowest max is the highest and default choose to 16 to 100
+	max = "500",
+	default = "50"
+})
+Slider:SetCallback(function(v)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = v -- if you want JumpPower Change the WalkSpeed To JumpPower
 end)
 
 local Toggle = Tab2:NewToggle({
